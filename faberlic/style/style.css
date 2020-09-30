@@ -1,0 +1,173 @@
+p {
+    font-size: 25px;
+}
+.container{
+    max-width: 1280px;
+    margin: 10px auto;
+}
+header{
+    background-color: #f8f6f7;
+    /* background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: inherit;
+    background-size: contain;  */
+    text-align: center;
+    padding: 30px 0;
+}
+header .container{
+    position: relative;
+}
+header .logo{
+    display: block;
+    height: 100px;
+    position: absolute;
+}
+header h1 {
+    /* margin: 60px; */
+    padding: 60px;
+    border-bottom: 10px solid rgba(107,9,64,1);
+    
+}
+header h1{
+    font-size: 70px;
+}
+header p{
+    font-size: 50px;
+}
+.content{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(107,9,64,1);
+    color: white;
+}
+.content p {
+    margin: 20px 0;
+}
+.set .container{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    width: 50%;
+    padding: 10px;
+}
+.img img{
+    display: block;
+    width: 100%;
+}
+.set p {
+    padding: 10px 0;
+}
+.set ul li{
+    list-style: decimal;
+    font-size: 20px;
+    /* padding-left: 5px; */
+    padding: 5px;
+}
+.setDescription{
+    padding: 0 0 0 30px;
+    margin-left: 35px;
+}
+.bottom{
+    max-width: 400px;
+    margin: 40px auto;
+    
+    
+    
+}
+.bottom a{
+    padding: 15px 110px;
+    color:rgba(255,255,255,1);
+    /* font-family: Bitter; */
+    font-size: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgba(107,9,64,1);
+    border-color:rgba(255,255,255,1);
+}
+
+footer{
+    background-color: rgba(107,9,64,1);
+    padding: 40px;
+}
+footer p{
+    font-size: 25px;
+    margin: 20px 0;
+    color: white;
+}
+footer a{
+    color: white;
+    font-size: 25px;
+}
+ 
+
+@media (max-width: 768px){
+    header .logo {
+        display: inline;
+        position: inherit;
+    }
+    header h1{
+        padding: 10px;
+    }
+    .set .container{
+        display: block;
+    }
+    .set .container .img{
+        margin: 0 auto;
+    }
+    footer{
+        padding: 10px;
+    }
+    footer p {
+        font-size: 15px;
+        margin: 10px 0;
+        color: white;
+    }
+    footer a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 360px){
+    header{
+        padding: 5px;
+    }
+    header .logo{
+        height: 60px;
+    }
+    header h1{
+        font-size: 29px;
+        font-weight: bolder;
+    }
+    header p{
+        font-size: 29px;
+        font-weight: bolder;
+    }
+    p{
+        font-size: 15px;
+    }
+    .setDescription{
+        padding: 0;
+    }
+    .set ul li {
+        font-size: 13px;
+    }
+    .bottom{
+        margin: 25px auto;
+        max-width: 240px;
+    }
+    .bottom a {
+        padding: 15px 50px;
+    }
+    footer{
+        padding: 5px;
+    }
+    footer p {
+        font-size: 10px;
+        margin: 5px auto;
+    }
+    footer a{
+        font-size: 10px;
+    }
+}
