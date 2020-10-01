@@ -7,11 +7,6 @@ p {
 }
 header{
     background-color: #f8f6f7;
-    /* background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: inherit;
-    background-size: contain;  */
     text-align: center;
     padding: 30px 0;
 }
@@ -69,26 +64,28 @@ header p{
     padding: 0 0 0 30px;
     margin-left: 35px;
 }
-.bottom{
+.botton{
     max-width: 400px;
-    margin: 40px auto;
-    
-    
-    
+    margin: 40px auto; 
 }
-.bottom a{
+.botton a{
     padding: 15px 110px;
     color:rgba(255,255,255,1);
-    /* font-family: Bitter; */
+    border-radius: 5px;
     font-size: 30px;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
     background-color:rgba(107,9,64,1);
     border-color:rgba(255,255,255,1);
+    transition: all .5s ease;
+}
+.botton a:hover{
+    background-color: rgba(107,9,64,.7);
 }
 
 footer{
+    position: relative;
     background-color: rgba(107,9,64,1);
     padding: 40px;
 }
@@ -100,6 +97,24 @@ footer p{
 footer a{
     color: white;
     font-size: 25px;
+}
+footer .social a{
+    margin-right: 10px;
+}
+.fa-facebook-f:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: #fbb004;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.telega:hover .fa-telegram-plane{
+    color: #007cff;
+}
+.viber:hover .fa-viber{
+    color: #9686f9;
 }
  
 
@@ -130,10 +145,10 @@ footer a{
     }
 }
 @media (max-width: 540px){
-	.bottom{
+	.botton{
 		max-width: 100%;
 	}
-	.bottom a {
+	.botton a {
     	display: inline-block;
     	width: 100%;
     	padding: 15px 0;
@@ -167,11 +182,19 @@ footer a{
     footer{
         padding: 5px;
     }
+    footer .container{
+        /* display: flex; */
+    }
     footer p {
         font-size: 10px;
         margin: 5px auto;
     }
     footer a{
         font-size: 10px;
+    }
+    .social{
+        position: absolute;
+        right: 30px;
+        top: 20px;
     }
 }
