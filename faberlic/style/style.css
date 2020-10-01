@@ -129,6 +129,16 @@ footer a{
         font-size: 15px;
     }
 }
+@media (max-width: 768px){
+	.bottom{
+		max-width: 100%;
+	}
+	.bottom a {
+    	display: inline-block;
+    	width: 100%;
+    	padding: 15px 0;
+	}
+}
 @media (max-width: 360px){
     header{
         padding: 5px;
