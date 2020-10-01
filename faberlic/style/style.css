@@ -129,7 +129,7 @@ footer a{
         font-size: 15px;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 540px){
 	.bottom{
 		max-width: 100%;
 	}
