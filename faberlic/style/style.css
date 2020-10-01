@@ -163,13 +163,7 @@ footer a{
     .set ul li {
         font-size: 13px;
     }
-    .bottom{
-        margin: 25px auto;
-        max-width: 240px;
-    }
-    .bottom a {
-        padding: 15px 50px;
-    }
+    
     footer{
         padding: 5px;
     }
